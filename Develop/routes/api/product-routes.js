@@ -10,16 +10,16 @@ router.get('/', (req, res) => {
 
   Product.findAll({
     where: {
-      attributes: ['id', 'productName', 'price', 'quantity'],
+      attributes: ['id', 'product_name', 'price', 'quantity'],
     },
     include: [
       {
         model: Category,
-        attributes: ['categoryName']
+        attributes: ['category_name']
       },
       {
         model: Tag,
-        attributes: ['tagName']
+        attributes: ['tag_name']
       }
     ]
   }).then(productData => res.json(productData))
@@ -37,15 +37,15 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes: ['id', 'productName', 'price', 'quality'],
+    attributes: ['id', 'product_name', 'price', 'quality'],
     include: [
       {
         model: Category,
-        attributes: ['categoryName']
+        attributes: ['category_name']
       },
       {
         model: Tag,
-        attributes: ['tagName']
+        attributes: ['tag_name']
       }
     ]
   }).then(productData => {
