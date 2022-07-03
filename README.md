@@ -32,8 +32,4 @@ https://github.com/MichaelR432/e-com-orm-site
 
 Video Link
 
-Terminal Video
-https://drive.google.com/file/d/1w4X7QJWa1iMqmKEsv6EJskuhP2NZAlaZ/view
-
-Insomnia Video
-https://drive.google.com/file/d/18xEBq4R95quJYkKadws31cYMv_zBLcwf/view
+https://drive.google.com/file/d/1DWwVYy_LBkS1ePesJyx_piWOu1bEijJU/view?usp=sharing
